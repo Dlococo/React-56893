@@ -1,17 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Clase from './Clase';
+import Funciones from './Funciones';
+import Holamundo from './HolaMundo';
+
+/*
+const elemento = document.createElement("h1");
+elemento.innerText = "Hola Mundo";
+const contenedor = document.getElementById("root");
+contenedor.appendChild(elemento);
+*/
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <p>
+    <Holamundo/>
+    <Funciones/>
+    <Clase/>
+  </p>
+  ,
+  
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
