@@ -1,0 +1,20 @@
+[
+    {
+        "id" : 1,
+        "nombrePerfil" : "Damian",
+        "cargo" : "Gerente",
+        "titulo" : "Ingeniero"
+    },
+    {
+        "id" : 2,
+        "nombrePerfil" : "Jose",
+        "cargo" : "Docente",
+        "titulo" : "Licenciada"
+    },
+    {
+        "id" : 3,
+        "nombrePerfil" : "Patricia",
+        "cargo" : "Coordinadora",
+        "titulo" : "Terciario"
+    }
+]
